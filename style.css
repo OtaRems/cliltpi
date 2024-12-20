@@ -1,0 +1,42 @@
+header {
+    background-color: var(--bs-purple);
+}
+
+a.palle::before {
+    content: "#";
+    color: var(--bs-light-bg-subtle);
+    position: absolute;
+    transform: translateX(-3rem);
+}
+
+a.palle {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+h4 {
+    color: var(--bs-tertiary-color) !important;
+}
+
+a:focus {
+    outline: none;
+}
+
+img {
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:570px){
+    main {
+        padding-left: 8rem !important;
+    }
+}
+
+.btn {
+    margin-top: 2rem;
+    background-color: #6f42c1 !important;
+    border-color: #6f42c1 !important;
+}
